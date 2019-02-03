@@ -13,10 +13,17 @@ h1, h2, p {
 }
 
 .avatar {
-	width: 300px;
-	border-radius: 12.5%;
-	margin: auto;
-	display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px #fff solid;
+    margin-bottom: 5px;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.avatar:hover {
+    filter:saturate(1.15);
 }
 
 .button {
