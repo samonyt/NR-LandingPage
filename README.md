@@ -1,2 +1,2 @@
-# NR-LandingPage
-Landing Page for NetskyRadio
+# NetskyRadio-Landing-Page
+### The simple landing page for the NetskyRadio Discord bot.

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+h1, h2, p {
+	color: white !important;
+}
+
+.avatar {
+	width: 300px;
+	border-radius: 12.5%;
+	margin: auto;
+	display: block;
+}
+
+.button {
+	font-size: 25px;
+}
+
+.fas {
+	font-size: 150px;
+	color: white;
+}
+
+.widget {
+	width: 200px;
+}
+
+.footer {
+	background: linear-gradient(90deg, #25006b, #0044ff, #00aeff, #ff00b3);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+	color: #fff;
+	padding: 3em
+}
+
+.footer-text {
+	color: #fff;
+	font-size: 1em;
+}
